@@ -5,4 +5,4 @@
 ใช้ชุดข้อมูลจาก https://www.kaggle.com/datasets/akhileshdkapse/nih-image-600x600-data?select=NIH_Images https://www.kaggle.com/datasets/akhileshdkapse/nih-dataframe
 
 # Web app 
-ทำการ deploy โมเดลด้วย streamlit
+ทำการ deploy โมเดลด้วย streamlit https://multilabelxrayimageclassification.streamlit.app/
