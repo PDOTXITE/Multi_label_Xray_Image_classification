@@ -1,6 +1,6 @@
 import streamlit as st
 import os
-from torchvision.models import resnet50
+from torchvision import models
 import torch
 import torch.nn as nn
 from torchvision.transforms import transforms
@@ -19,7 +19,7 @@ sample_images = {
 
 # ฟังก์ชันสำหรับโหลดโมเดล
 def load_model():
-    model = resnet50(pretrained=True)
+    model = models.resnet50(pretrained=True)
     num_features = model.fc.in_features
     model.fc = nn.Linear(num_features, len(all_classes))
     model.load_state_dict(torch.load('models/resnet50finalmodel.pt', map_location=torch.device('cpu')))
