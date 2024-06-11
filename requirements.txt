@@ -1,0 +1,10 @@
+pandas==2.0.3
+torch==2.3.0
+torchvision==0.18.0
+matplotlib==3.7.1
+Pillow==9.4.0
+numpy==1.25.2
+scikit-learn==1.2.2
+seaborn==0.13.1
+tensorboard==2.15.2
+streamlit==1.30.0
